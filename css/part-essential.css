@@ -1,0 +1,187 @@
+html {
+    background: #f2f2f2;
+}
+.bg--main-container {
+    background: #f2f2f2;
+}
+.h1-title__text-area {
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Montserrat,sans-serif;
+}
+.content_text-area {
+    font-family: 'Open Sans',sans-serif;
+}
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 30px;
+	height: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: rgb(54, 50, 50);
+	background-clip: padding-box;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	opacity: .5;
+	transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+	opacity: 1;
+	background-color: black;
+}
+.corurel-width-height {
+    width: 40%;
+    position: absolute;
+    left: 6rem;
+    top: 2rem;
+    z-index: 55;
+}
+.carousel-control-next, .carousel-control-prev {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 15%;
+	color: #fff;
+	text-align: center;
+	opacity: .5;
+	transition: opacity .15s ease;
+    position: absolute;
+    right: -10%;
+}
+.carousel-control-prev {
+    position: absolute;
+    left: -10%;
+}
+#carouselExampleIndicators {
+    padding: 5%;
+    margin: 0;
+}
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 10px;
+	height: 10px;
+    border-radius: 50%;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: rgb(54, 50, 50);
+	background-clip: padding-box;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	opacity: .5;
+	transition: opacity .6s ease;
+}
+.blue-box {
+    width: 345px;
+    height: 530px;
+    background: #232b79;
+    margin-left: 12rem;
+}
+.image-two-part-essential {
+    width: 637px;
+    height: 434px;
+    position: absolute;
+    right: 12rem;
+    top: 4rem;
+    z-index: 5;
+}
+.single-link, .single-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.single-link_underline {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+.phone-container-part-two {
+    width: 100%;
+    /* height: 400px; */
+    padding: 6rem;
+    background-image: url("../images/image-two-part-phone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.form-container {
+    padding: 3rem 4rem;
+}
+.btn-color_special {
+    background: #232B79;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    /* border-color: #232b79; */
+    box-shadow: 1px 1px 2px 0 transparent;
+}
+.input-group-text {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: .375rem .75rem;
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #232B79;
+	/* border: 1px solid #ced4da; */
+    border: none;
+	border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.input-group-text:hover {
+    background: #232c7985;
+}
+.socials {
+    background: #F2F2F2;
+    /* width: 28.3rem; */
+}
+.contents-block-form {
+    width: 30rem;
+    /* outline: 1px solid red; */
+}
+.icons-socials a {
+    color: black;
+}
+.w-footer-content {
+    width: 40%;
+    font-size: small;
+}
+.text-small {
+    font-size: small;
+}
