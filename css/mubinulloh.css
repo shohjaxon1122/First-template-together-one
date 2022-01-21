@@ -1,0 +1,134 @@
+.modal_fade{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.801);
+    transition: ease 0.4s;
+    display: none;
+}
+
+.modal_content{
+    width: 20rem;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    filter: opacity(65%);
+    position: relative;
+    transform: translatex(-25rem);
+    animation: showw 0.4s linear forwards;
+}
+
+@keyframes showw{
+    0%{
+        transform: translatex(-20rem);
+    }
+    25%{
+        transform: translatex(-15rem);
+    }
+    50%{
+        transform: translatex(-10rem);
+    }
+    75%{
+        transform: translatex(-5rem);
+    }
+    100%{
+        transform: translatex(0rem);
+    }
+}
+.modal_content a{
+   font-size: 24px;
+   position: absolute;
+   top: 3.5rem;
+   left: 6rem;
+}
+.modal_content button{
+    position: absolute;
+    left: 16rem;
+ }
+.show{
+    display: none;
+}
+
+
+.main{
+    width: 100%;
+    height: 800px;
+    background: url(../images/-min.jpg)no-repeat;background-size: cover;
+    background-position: 100%;
+    padding-top: 100px;
+    position: relative;
+
+}
+.main h1{
+    width: 44rem;
+    font-size: 85px;
+    font-weight: 100;
+}
+.main ul{
+    padding: 0;
+    width: 550px;
+    list-style: none;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main ul li:not(.not){
+    margin-right: 1rem;
+     
+     
+     
+     
+}
+.main ul li a{
+    border-right: 2px solid #fff;
+    padding: 0 1rem 0.2rem 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+.main ul li a:hover{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+.main .button{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    outline: 2px solid #fff;
+    border-radius: 0px !important;
+    padding: 0.5rem 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #fff;
+    
+}
+.main .button:hover{
+    background: #fff;
+    color: #000;
+    
+}
+.main p{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;;
+    
+    
+}
+.main p a{
+    text-decoration: underline;
+    color: #fff;
+}
+.main p a:hover{
+ color: #fff;
+ text-decoration: none;
+}
+.main .wrapper{
+    width: 200px;
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+}
